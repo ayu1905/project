@@ -1,0 +1,153 @@
+.product {
+    width: 100%;
+    margin: 50px;
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.banner .imgbox {
+    width: 1200px;
+    height: 440px;
+    position: relative;
+}
+
+.banner .imgbox img {
+    width: 1200px;
+    height: 440px;
+    position: absolute;
+}
+
+.banner .btns input {
+    position: absolute;
+    color: red;
+    border: none;
+    top: 400px;
+    z-index: 999;
+    font-size: 36px;
+    font-weight: bold;
+    background: transparent;
+}
+
+.banner .btns #left {
+    left: 200px;
+}
+
+.banner .btns #right {
+    right: 200px;
+}
+
+#cont {
+    width: 1000px;
+    /* height: 1600px; */
+    margin: 20px auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#cont .box {
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#cont .box img {
+    width: 220px;
+    height: 240px;
+    margin-left: 15px;
+}
+
+#cont .box p {
+    line-height: 16px;
+    height: 32px;
+    overflow: hidden;
+    margin: 10px 0;
+    font-size: 16px;
+    color: lightblue;
+}
+
+#cont .box em {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 10px auto;
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    background: dodgerblue;
+    color: #FFF;
+}
+
+#cont .box span {
+    color: red;
+    font-size: 16px;
+}
+
+#cont :hover {
+    border: solid 1px #ccc;
+}
+
+.box {
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.box .pageWarp {
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.box .pageWarp #btnR {
+    line-height: 40px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+}
+
+.box .pageWarp #btnL {
+    line-height: 40px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+}
+
+.box .pageWarp ul {
+    height: 40px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+}
+
+.box .pageWarp ul li {
+    text-align: center;
+    line-height: 40px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+
+.box .pageWarp .active {
+    color: #fff;
+    font-size: 24px;
+    background: #15b;
+    border: 1px solid #15b;
+}
+
+
+/*# sourceMappingURL=sass.css.map */

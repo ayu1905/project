@@ -1,0 +1,116 @@
+.details {
+    margin: 30px 0;
+    padding: 20xp 0;
+}
+
+.details .topfloor {
+    font-size: 12px;
+}
+
+.details .topfloor ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.details .topfloor ul li {
+    padding: 0 5px;
+}
+
+.details .topfloor ul li a {
+    color: #666;
+}
+
+.details .centerfloor {
+    display: flex;
+    flex-direction: row;
+}
+
+.details .centerfloor .left {
+    width: 320px;
+    height: 320px;
+    margin-left: 50px;
+    margin-top: 20px;
+    position: relative;
+    background: #ddd;
+}
+
+.details .centerfloor .left img {
+    width: 320px;
+    height: 320px;
+}
+
+.details .centerfloor .left span {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.details .centerfloor .magic {
+    display: none;
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    overflow: hidden;
+}
+
+.details .centerfloor .magic img {
+    position: absolute;
+    width: 700px;
+    height: 600px;
+}
+
+.details .centerfloor .right {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 650px;
+}
+
+.details .centerfloor .right .right_top {
+    font-size: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.details .centerfloor .right .right_top a {
+    color: #000;
+}
+
+.details .centerfloor .right .center_right {
+    border-bottom: 2px solid #ddd;
+}
+
+.details .centerfloor .right .center_right ul li {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+}
+
+.details .centerfloor .right .center_right ul li span {
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+.details .centerfloor .right .bottom_right {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 50px;
+}
+
+.details .centerfloor .right .bottom_right input {
+    width: 50px;
+    height: 30px;
+    margin: 20px 0;
+}
+
+.details .centerfloor .right .bottom_right div {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    background: orangered;
+    color: #fff;
+}
+
+
+/*# sourceMappingURL=details.css.map */

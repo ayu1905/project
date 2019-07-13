@@ -1,0 +1,93 @@
+.details {
+    margin-top: 30px;
+    .topfloor {
+        font-size: 12px;
+        ul {
+            display: flex;
+            flex-direction: row;
+            li {
+                padding: 0 5px;
+                a {
+                    color: #666;
+                }
+            }
+        }
+    }
+    .centerfloor {
+        display: flex;
+        flex-direction: row;
+        .left {
+            width: 320px;
+            height: 320px;
+            margin-left: 50px;
+            margin-top: 20px;
+            position: relative;
+            background: #ddd;
+            img {
+                width: 320px;
+                height: 320px;
+            }
+            span {
+                position: absolute;
+                background: rgba($color: #000000, $alpha: 0.1);
+            }
+        }
+        .magic {
+            display: none;
+            width: 400px;
+            height: 300px;
+            position: absolute;
+            top: 25px;
+            left: 400px;
+            overflow: hidden;
+            img {
+                position: absolute;
+            }
+        }
+        .right {
+            margin-top: 50px;
+            margin-left: 50px;
+            width: 650px;
+            .right_top {
+                font-size: 20px;
+                border-bottom: 2px solid #ddd;
+                a {
+                    color: #000;
+                }
+            }
+            .center_right {
+                border-bottom: 2px solid #ddd;
+                ul {
+                    li {
+                        display: flex;
+                        flex-direction: row;
+                        margin: 10px 0;
+                        span {
+                            margin: 0 20px;
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+            .bottom_right {
+                display: flex;
+                flex-direction: column;
+                margin: 30px 50px;
+                input {
+                    width: 50px;
+                    height: 30px;
+                    margin: 20px 0;
+                }
+                div {
+                    width: 120px;
+                    height: 40px;
+                    text-align: center;
+                    line-height: 40px;
+                    font-size: 20px;
+                    background: orangered;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
